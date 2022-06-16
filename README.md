@@ -8,10 +8,8 @@ typedef struct node
 	char diqu[100];
 	int fengxian;
 	struct node *next;
-}fxdq;
-//fxdq： 风险地区链表
-//fengxian：风险等级
-//diqu：地区名 
+
+	
 fxdq * createList(int n) 
 {
 	fxdq * head = new fxdq;
